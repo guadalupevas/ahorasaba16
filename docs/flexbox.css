@@ -1,0 +1,84 @@
+div img {
+    width: 30%;
+    border: 5px dotted #000;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+::selection {
+    color: rgb(217, 92, 255);
+    background-color: rgb(130, 134, 245);
+}
+
+header nav ul li a {
+    cursor: crosshair;
+}
+
+.caja {
+    width: 300px;
+    border: 5px solid rgb(8, 25, 78);
+    display: flex;
+    gap: 15px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(125, 125, 248);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: rgb(192, 201, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    background-color: azure;
+}
+
+.menu {
+    background-color: bisque;
+    flex: 20%;
+    margin: 5px;
+}
+
+.contenido {
+    background-color: rgb(140, 158, 240);
+    flex: 60%;
+}
+
+.menu ul li {
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+
+}
+.contenedor1 {
+    background-color: white;
+    width: 50%;
+    margin: 10px auto;
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px #ddd;
+}
+
+.linea {
+    border: 2px solid #ddd;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
